@@ -269,6 +269,37 @@
 	    width: 50%;
 	}
 
+	/*-- Footer --*/
+
+	.footer .col {
+	    width: 100%;
+	    text-align: center;
+	    padding: 5px 0;
+	}
+
+	.web-studio {
+	    margin: 0 auto;
+	    float: none;
+	    width: 150px;
+	}
+
+	.web-studio .vlad-web-logo {
+	    display: block;
+	    width: 46px;
+	    height: 46px;
+	    float: none;
+	    margin: 10px auto;
+	}
+
+	.web-studio h2 {
+	    width: 100%;
+	    float: none;
+	    margin: 0 auto;
+	    padding: 0;
+	}
+
+	/*-- /Footer --*/
+
 }
 
 
@@ -448,37 +479,6 @@
 	    font-size: 15px;
 	    line-height: 18px;
 	}
-
-	/*-- Footer --*/
-
-	.footer .col {
-	    width: 100%;
-	    text-align: center;
-	    padding: 5px 0;
-	}
-
-	.web-studio {
-	    margin: 0 auto;
-	    float: none;
-	    width: 150px;
-	}
-
-	.web-studio .vlad-web-logo {
-	    display: block;
-	    width: 46px;
-	    height: 46px;
-	    float: none;
-	    margin: 10px auto;
-	}
-
-	.web-studio h2 {
-	    width: 100%;
-	    float: none;
-	    margin: 0 auto;
-	    padding: 0;
-	}
-
-	/*-- /Footer --*/
 
 }
 
