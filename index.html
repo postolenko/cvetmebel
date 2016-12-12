@@ -22,11 +22,13 @@
 
    <link rel="stylesheet" type="text/css" href="slick/slick.css">
 
+   <link rel="stylesheet" href="vendors/css/jquery.mCustomScrollbar.css">
 
    <script type="text/javascript" src="vendors/js/jquery.js"></script>
 
    <script type="text/javascript" src="slick/slick.js"></script>
 
+   <script src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
 
    <script type="text/javascript" src="vendors/js/wow.min.js"></script>
    <script>new WOW().init();</script>
@@ -55,12 +57,17 @@
 
    <header>
 
-
       <div class="header">
          
          <div class="header-row-1">
 
             <div class="row offset-ziro">
+
+               <div class="top-tel-box">
+                  
+                  <i class="fa fa-phone" aria-hidden="true"></i><a class="top-tel-link" href="tel:+79646962002">+7 (964) 696-20-02</a>
+
+               </div>
             
                <div class="col top-nav">
                   
@@ -79,7 +86,7 @@
 
                <div class="col call-back">
                   
-                  <i class="call-back-icon"></i><a href="#" class="call-back-link">Обратный звонок</a>
+                  <a href="#" class="call-back-link"><i class="call-back-icon"></i><span>Обратный звонок</span></a>
 
                </div>
 
@@ -90,6 +97,20 @@
          <div class="header-row-2">
 
             <div class="row offset-ziro">
+
+               <div class="respmenubtn-box">
+                  
+                  <button class="respmenubtn">
+                     
+                     <span></span>
+                     <span></span>
+                     <span></span>
+
+                  </button>
+
+                  <h3>Меню</h3>
+
+               </div>
                
                <div class="col col-1">
 
@@ -97,9 +118,7 @@
 
                      <div class="logo">
                      
-                        <!-- <div class="logo-img-link"> -->
-                        <img src="img/logo.png" alt="Цветмебель">
-                        <!-- </div> -->
+                        <img class="logo-img" src="img/logo.png" alt="Цветмебель">
 
                      </div>
 
@@ -163,6 +182,34 @@
 
          </div>
 
+         <div class="promobox-mob">
+            
+            <div class="logo-box-mob">
+               
+               <img class="logo-mob" src="img/logo_mob.png" alt="Цветмебель" >
+
+            </div>
+
+            <h1>ЦветМебель</h1>
+
+            <h2>Интернет-магазин</h2>
+
+            <button class="sroll-down">
+
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129" enable-background="new 0 0 129 129" width="34px" height="40px">
+
+                 <g>
+
+                   <path d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" fill="#342e1f"/>
+
+                 </g>
+
+               </svg>
+
+            </button>
+
+         </div>
+
          <div class="main-navigation">
             
             <div class="main-navigation-row">
@@ -171,13 +218,17 @@
 
                   <a href="#" class="nav-item-link">Угловые диваны <i class="nav-arrow fa fa-chevron-down" aria-hidden="true"></i></a>
 
-                  <ul class="inner-nav">
+                  <div class="inner-nav-wrapp">
 
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из кожи</a><li>
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из ткани</a><li>
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из экокожи</a><li>
+                     <ul class="inner-nav">
 
-                  </ul>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из кожи</a><li>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из ткани</a><li>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из экокожи</a><li>
+
+                     </ul>
+
+                  </div>
 
                </div>
 
@@ -185,13 +236,17 @@
 
                   <a href="#" class="nav-item-link">Прямые диваны <i class="nav-arrow fa fa-chevron-down" aria-hidden="true"></i></a>
 
-                  <ul class="inner-nav">
+                  <div class="inner-nav-wrapp">
 
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из кожи</a><li>
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из ткани</a><li>
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из экокожи</a><li>
+                     <ul class="inner-nav">
 
-                  </ul>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из кожи</a><li>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из ткани</a><li>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из экокожи</a><li>
+
+                     </ul>
+
+                  </div>
 
                </div>
 
@@ -199,13 +254,17 @@
 
                   <a href="#" class="nav-item-link">Детские диваны<i class="nav-arrow fa fa-chevron-down" aria-hidden="true"></i></a>
 
-                  <ul class="inner-nav">
+                  <div class="inner-nav-wrapp">
 
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из кожи</a><li>
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из ткани</a><li>
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из экокожи</a><li>
+                     <ul class="inner-nav">
 
-                  </ul>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из кожи</a><li>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из ткани</a><li>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из экокожи</a><li>
+
+                     </ul>
+
+                  </div>
 
                </div>
 
@@ -213,13 +272,17 @@
 
                   <a href="#" class="nav-item-link">Модульные диваны<i class="nav-arrow fa fa-chevron-down" aria-hidden="true"></i></a>
 
-                  <ul class="inner-nav">
+                  <div class="inner-nav-wrapp">
 
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из кожи</a><li>
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из ткани</a><li>
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из экокожи</a><li>
+                     <ul class="inner-nav">
 
-                  </ul>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из кожи</a><li>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из ткани</a><li>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из экокожи</a><li>
+
+                     </ul>
+
+                  </div>
 
                </div>
 
@@ -227,13 +290,17 @@
 
                   <a href="#" class="nav-item-link">Офисные диваны<i class="nav-arrow fa fa-chevron-down" aria-hidden="true"></i></a>
 
-                  <ul class="inner-nav">
+                  <div class="inner-nav-wrapp">
 
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из кожи</a><li>
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из ткани</a><li>
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из экокожи</a><li>
+                     <ul class="inner-nav">
 
-                  </ul>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из кожи</a><li>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из ткани</a><li>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из экокожи</a><li>
+
+                     </ul>
+
+                  </div>
 
                </div>
 
@@ -241,13 +308,17 @@
 
                   <a href="#" class="nav-item-link">Кресла и пуфы<i class="nav-arrow fa fa-chevron-down" aria-hidden="true"></i></a>
 
-                  <ul class="inner-nav">
+                  <div class="inner-nav-wrapp">
 
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из кожи</a><li>
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из ткани</a><li>
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из экокожи</a><li>
+                     <ul class="inner-nav">
 
-                  </ul>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из кожи</a><li>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из ткани</a><li>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из экокожи</a><li>
+
+                     </ul>
+
+                  </div>
 
                </div>
 
@@ -255,13 +326,17 @@
 
                   <a href="#" class="nav-item-link">Корпусная мебель<i class="nav-arrow fa fa-chevron-down" aria-hidden="true"></i></a>
 
-                  <ul class="inner-nav">
+                  <div class="inner-nav-wrapp">
 
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из кожи</a><li>
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из ткани</a><li>
-                     <li><a href="#" class="inner-nav-link" >Диваны прямые из экокожи</a><li>
+                     <ul class="inner-nav">
 
-                  </ul>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из кожи</a><li>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из ткани</a><li>
+                        <li><a href="#" class="inner-nav-link" >Диваны прямые из экокожи</a><li>
+
+                     </ul>
+
+                  </div>
 
                </div>
 
@@ -272,6 +347,239 @@
 
       </div>
 
+      <!-- Responsive Main Navigation -->
+
+         <div class="resp-main-navigation">
+
+            <button class="close-resp-nav"><i class="fa fa-times" aria-hidden="true"></i></button>
+            
+            <div class="resp-main-navigation-row">
+               
+               <div class="resp-nav-item">
+
+                  <div class="offset-ziro">
+
+                     <a href="#" class="resp-nav-item-link">Угловые диваны</a>
+
+                     <button class="resp-nav-btn" type="button">
+
+                        <i class="nav-arrow fa fa-chevron-down" aria-hidden="true"></i>
+
+                     </button>
+
+                  </div>
+
+                  <div class="resp-inner-nav-wrapp">
+
+                     <ul class="resp-inner-nav">
+
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из кожи</a><li>
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из ткани</a><li>
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из экокожи</a><li>
+
+                     </ul>
+
+                  </div>
+
+               </div>
+
+            </div>
+
+            <div class="resp-main-navigation-row">
+               
+               <div class="resp-nav-item">
+
+                  <div class="offset-ziro">
+
+                     <a href="#" class="resp-nav-item-link">Прямые диваны</a>
+
+                     <button class="resp-nav-btn" type="button">
+
+                        <i class="nav-arrow fa fa-chevron-down" aria-hidden="true"></i>
+
+                     </button>
+
+                  </div>
+
+                  <div class="resp-inner-nav-wrapp">
+
+                     <ul class="resp-inner-nav">
+
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из кожи</a><li>
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из ткани</a><li>
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из экокожи</a><li>
+
+                     </ul>
+
+                  </div>
+
+               </div>
+               
+            </div>
+
+            <div class="resp-main-navigation-row">
+               
+               <div class="resp-nav-item">
+
+                  <div class="offset-ziro">
+
+                     <a href="#" class="resp-nav-item-link">Детские диваны</a>
+
+                     <button class="resp-nav-btn" type="button">
+
+                        <i class="nav-arrow fa fa-chevron-down" aria-hidden="true"></i>
+
+                     </button>
+
+                  </div>
+
+                  <div class="resp-inner-nav-wrapp">
+
+                     <ul class="resp-inner-nav">
+
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из кожи</a><li>
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из ткани</a><li>
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из экокожи</a><li>
+
+                     </ul>
+
+                  </div>
+
+               </div>
+               
+            </div>
+
+            <div class="resp-main-navigation-row">
+               
+               <div class="resp-nav-item">
+
+                  <div class="offset-ziro">
+
+                     <a href="#" class="resp-nav-item-link">Модульные диваны</a>
+
+                     <button class="resp-nav-btn" type="button">
+
+                        <i class="nav-arrow fa fa-chevron-down" aria-hidden="true"></i>
+
+                     </button>
+
+                  </div>
+
+                  <div class="resp-inner-nav-wrapp">
+
+                     <ul class="resp-inner-nav">
+
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из кожи</a><li>
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из ткани</a><li>
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из экокожи</a><li>
+
+                     </ul>
+
+                  </div>
+
+               </div>
+               
+            </div>
+
+            <div class="resp-main-navigation-row">
+               
+               <div class="resp-nav-item">
+
+                  <div class="offset-ziro">
+
+                     <a href="#" class="resp-nav-item-link">Офисные диваны</a>
+
+                     <button class="resp-nav-btn" type="button">
+
+                        <i class="nav-arrow fa fa-chevron-down" aria-hidden="true"></i>
+
+                     </button>
+
+                  </div>
+
+                  <div class="resp-inner-nav-wrapp">
+
+                     <ul class="resp-inner-nav">
+
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из кожи</a><li>
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из ткани</a><li>
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из экокожи</a><li>
+
+                     </ul>
+
+                  </div>
+
+               </div>
+               
+            </div>
+
+            <div class="resp-main-navigation-row">
+               
+               <div class="resp-nav-item">
+
+                  <div class="offset-ziro">
+
+                     <a href="#" class="resp-nav-item-link">Кресла и пуфы</a>
+
+                     <button class="resp-nav-btn" type="button">
+
+                        <i class="nav-arrow fa fa-chevron-down" aria-hidden="true"></i>
+
+                     </button>
+
+                  </div>
+
+                  <div class="resp-inner-nav-wrapp">
+
+                     <ul class="resp-inner-nav">
+
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из кожи</a><li>
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из ткани</a><li>
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из экокожи</a><li>
+
+                     </ul>
+
+                  </div>
+
+               </div>
+               
+            </div>
+
+            <div class="resp-main-navigation-row">
+               
+               <div class="resp-nav-item">
+
+                  <div class="offset-ziro">
+
+                     <a href="#" class="resp-nav-item-link">Корпусная мебель</a>
+
+                     <button class="resp-nav-btn" type="button">
+
+                        <i class="nav-arrow fa fa-chevron-down" aria-hidden="true"></i>
+
+                     </button>
+
+                  </div>
+
+                  <div class="resp-inner-nav-wrapp">
+
+                     <ul class="resp-inner-nav">
+
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из кожи</a><li>
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из ткани</a><li>
+                        <li><a href="#" class="resp-inner-nav-link">Диваны прямые из экокожи</a><li>
+
+                     </ul>
+
+                  </div>
+
+               </div>
+               
+            </div>
+
+         </div>
+
+      <!-- /Responsive Main Navigation -->
                         
    </header>
 
@@ -282,7 +590,7 @@
 
          <!-- Promo Section -->
 
-            <section>
+            <section class="promo-slider-sect" id="scroll_down_anchor">
                
                <div class="row clearfix">
 
@@ -970,11 +1278,11 @@
 
                <div class="col col-3 clearfix">
                   
-                  <a href="#" class="web-studio right">
-                     
-                     <h2>Создание сайтов<br /> компания «Владвеб»</h2>
+                  <a href="#" class="web-studio right clearfix">                    
 
-                     <img class="vlad-web-logo" src="img/vlad_web.png" alt="Создание сайтов компания «Владвеб»">
+                     <img class="vlad-web-logo right" src="img/vlad_web.png" alt="Создание сайтов компания «Владвеб»">
+
+                     <h2 class="left">Создание сайтов<br /> компания «Владвеб»</h2>
 
                   </a>
 
@@ -991,6 +1299,16 @@
       <script src="js/scripts.js"></script>
 
       <script>
+
+         (function($){
+
+            $(window).on("load",function(){
+               
+               $(".resp-main-navigation").mCustomScrollbar();
+
+            });
+
+         })(jQuery);
          
          $(".promo-slider-box").slick({
             dots: true,
@@ -1005,7 +1323,22 @@
          $(".slider-2").slick({
             dots: true,
             arrows: true,
-            slidesToShow: 4
+            slidesToShow: 4,
+            responsive: [
+               {
+                  breakpoint: 768,
+                  settings: {
+                     slidesToShow: 2
+                  }
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                     slidesToShow: 1,
+                     arrows: false
+                  }
+                }
+              ]
          });
 
       </script>
