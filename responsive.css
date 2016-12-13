@@ -25,6 +25,13 @@
 
 @media only screen and (max-width: 1024px) {
 
+	/* -- Catalog Page -- */
+
+	.good-thumb-box {
+	    width: 33.33%;
+	}
+
+	/* -- /Catalog Page -- */
 
 }
 
@@ -245,6 +252,23 @@
 	    width: 50%;
 	}
 
+	/* -- Catalog Page -- */
+
+	.select-box {
+	    margin: 10px 3px;
+	}
+
+	.reset-link-box {
+	    margin: 10px 3px;
+	    padding: 0 0 0 10px;
+	}
+
+	.good-thumb-box {
+	    width: 50%;
+	}
+
+	/* -- /Catalog Page -- */
+
 }
 
 @media only screen and (max-width: 620px) {
@@ -305,6 +329,14 @@
 
 
 @media only screen and (max-width: 480px) {
+
+	.desctop-pagination {
+		display: none;
+	}
+
+	.mob-pagination {
+		display: block;
+	}
 
 	.promobox-mob {
 		display: block; 
@@ -480,6 +512,26 @@
 	    line-height: 18px;
 	}
 
+	/* -- Catalog Page -- */
+
+	.select-box {
+	    width: 100%;
+	    margin: 10px 0;
+	}
+
+	.reset-link-box {
+	    margin: 10px 3px;
+	    padding: 0 0 0 10px;
+	}
+
+	.good-thumb-box {
+		display: block;
+	    width: 84%;
+	    margin: 0 auto;
+	}
+
+	/* -- /Catalog Page -- */
+
 }
 
 @media only screen and (max-width: 340px) {
@@ -496,5 +548,13 @@
 	.banner {
 	    min-height: 160px;
 	}
+
+	/* -- Catalog Page -- */
+
+	.good-thumb-box {
+	    width: 98%;
+	}
+
+	/* -- /Catalog Page -- */
 
 }

@@ -214,9 +214,22 @@ a:active {
     -webkit-tap-highlight-color: transparent;
 }
 
+/*.for-mob {
+    display: none;
+}
+*/
+
+/*.mob-novisible {
+    display: block;
+}*/
+
 /*-------------------------------------------*/
 /* ----- REUSABLE COMPONENTS ------ */
 /*-------------------------------------------*/
+
+section.offset-top-0 {
+    padding-top: 0;
+}
 
 .row {
     padding: 0;
@@ -2336,6 +2349,374 @@ p.count-goods {
 }
 
 /* ----- /Main Page Section 6 - Testimonial Thumbnails ------ */
+
+/* ----- Caalog Page Section 1 - Breadcrumbs ------ */
+
+.breadcrumbs-sect {
+    padding: 50px 0 10px;
+}
+
+.breadcrumbs {
+
+}
+
+.breadcrumbs li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.breadcrumb {
+    font-family: "Arial", Arial, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.breadcrumb:after {
+    display: inline-block;
+    vertical-align: top;
+    content: "\2f";
+    padding: 0 7px;
+    font-family: "Arial", Arial, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+}
+
+.breadcrumbs li:last-child .breadcrumb:after {
+    display: none;
+}
+
+.breadcrumb:link,
+.breadcrumb:visited {
+    color: #333333
+}
+
+.breadcrumb.active,
+.breadcrumb:active {
+    color: #999999;
+}
+
+.breadcrumb:hover {
+    color: #999999;
+}
+
+.breadcrumb:last-child {
+    color: #999999;
+}
+
+.breadcrumb .fa {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.breadcrumb:link .fa,
+.breadcrumb:visited .fa {
+    color: #333333
+}
+
+.breadcrumb.active .fa,
+.breadcrumb:active .fa {
+    color: #999999;
+}
+
+.breadcrumb:hover .fa {
+    color: #999999;
+}
+
+/* ----- /Caalog Page Section 1 - Breadcrumbs ------ */
+
+/* ----- Caalog Page Section 2 - Catalog ------ */
+
+.inner-page-h {
+    font-family: "Arial", Arial, Verdana, sans-serif;
+    font-size: 48px;
+    line-height: 53px;
+    color: #252525;
+}
+
+.selected-box {
+    padding: 40px 0 0 0;
+}
+
+.select-box {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 12px;
+}
+
+.reset-link-box {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 12px;
+    padding: 0 0 0 20px;
+}
+
+.reset-link {
+    
+}
+
+.reset-link-txt {
+    font-family: "Arial", Arial, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666666;
+    border-bottom: 1px dashed #666666;
+    text-transform: uppercase;
+
+    -webkit-transition-property: color border;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color border;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color border;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color border;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color border;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.reset-link:link .reset-link-txt,
+.reset-link:visited .reset-link-txt {
+    color: #666666;
+    border-bottom: 1px dashed #666666;
+}
+
+.reset-link.active .reset-link-txt,
+.reset-link:active .reset-link-txt {
+    color: #e60057;
+    border-bottom: 1px dashed transparent;
+}
+
+.reset-link:hover .reset-link-txt {
+    color: #e60057;
+    border-bottom: 1px dashed transparent;
+}
+
+.reset-link-x {
+    font-family: "Arial", Arial, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #e60057;
+}
+
+.catalog-thumbnails {
+    display: block;
+    width: 104%;
+    margin: 0 0 0 -2%;
+    padding: 20px 0;
+}
+
+.good-thumb-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    padding: 15px;
+}
+
+.catalog-thumbnails .good-thumb {
+    display: block;
+    width: 100%;
+    
+}
+
+.pagimation-list {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.pagimation-list li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 4px;
+}
+
+.pagination-link {
+    display: block;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #d0d0d0;
+    font-family: "Arial", Arial, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: normal;
+    color: #252525;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.pagination-link:link,
+.pagination-link:visited {
+    color: #252525;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #d0d0d0;
+}
+
+.pagination-link.active,
+.pagination-link:active {
+    color: #ffffff;
+    background-color: rgb(35, 167, 182);
+    border: 1px solid #23a7b6;
+}
+
+.pagination-link:hover {
+    color: #ffffff;
+    background-color: rgb(35, 167, 182);
+    border: 1px solid #23a7b6;
+}
+
+.pagination-arrow {
+    background-image: url(img/pagination_sprite.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.pagination-first {
+    background-position: -2px 6px;
+}
+
+.pagination-prev {
+    background-position: -46px 6px;
+}
+
+.pagination-next {
+    background-position: -86px 6px;
+}
+
+.pagination-last {
+    background-position: -129px 6px;
+}
+
+.pagination-first:hover  {
+    background-position: -2px -13px;
+}
+
+.pagination-prev:hover  {
+    background-position: -46px -13px;
+}
+
+.pagination-next:hover  {
+    background-position: -86px -13px;
+}
+
+.pagination-last:hover  {
+    background-position: -128px -13px;
+}
+
+.mob-pagination {
+    display: none;
+    text-align: center;
+    margin: 25px 0 40px 0;
+}
+
+.mob-pagination .pagimation-list {
+    margin: 10px 0;
+}
+
+.mob-pagination .pagimation-list li {
+    margin: 0 12px;
+}
+
+.mob-pagination li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 4px;
+}
+
+.mob-pagination  .pagination-num {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    border: none;
+    border-radius: none;
+    background: none;
+    font-family: "Arial", Arial, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #444444;
+}
+
+.mob-pagination .pagination-num:link,
+.mob-pagination .pagination-num:visited {
+    color: #444444;
+}
+
+.mob-pagination .pagination-num.active,
+.mob-pagination .pagination-num:active {
+    color: #23a7b6;
+}
+
+.mob-pagination .pagination-num:hover {
+    color: #23a7b6;
+}
+
+.mob-pagination .pagination-arrow {
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+
+li.pagination-arrow-item {
+    padding: 10px;
+}
+
+.mob-pagination .pagination-arrow {
+    background-image: url(img/pagination_sprite_mob.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.mob-pagination .pagination-first {
+    background-position: 0 11px;
+}
+
+.mob-pagination .pagination-prev {
+    background-position: -75px 11px;
+}
+
+.mob-pagination .pagination-next {
+    background-position: -151px 11px;
+}
+
+.mob-pagination .pagination-last {
+    background-position: -226px 11px;
+}
+
+.mob-pagination .pagination-first:hover {
+    background-position: 0 -21px;
+}
+
+.mob-pagination .pagination-prev:hover {
+    background-position: -75px -21px;
+}
+
+.mob-pagination .pagination-next:hover {
+    background-position: -151px -21px;
+}
+
+.mob-pagination .pagination-last:hover {
+    background-position: -226px -21px;
+}
+
+/* ----- /Caalog Page Section 2 - Catalog ------ */
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
