@@ -20,11 +20,31 @@
 		padding: 0 2%;
 	}
 
+	/* ----- HEADER row 2 ------ */
+
+	.header-row-2 .col-1 {
+	    width: 29%;
+	}
+
+	.logo-descript h1 {
+		font-size: 24px;
+	}
+
+	.header-row-2 .col-2 {
+	    width: 22%;
+	}
+
+	.header-row-2 .col-3 {
+	    width: 16%;
+	}
+
+	/* ----- /HEADER row 2 ------ */
+
 }
 
 
 @media only screen and (max-width: 1024px) {
-
+	
 	/* -- Catalog Page -- */
 
 	.good-thumb-box {
@@ -104,7 +124,7 @@
 	}
 
 	.header-row-2 .col-1 {
-	    width: 36%;
+	    width: 42%;
 	}
 
 	.logo-descript h1 {

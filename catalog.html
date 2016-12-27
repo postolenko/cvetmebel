@@ -26,6 +26,8 @@
 
    <link rel="stylesheet" href="vendors/css/jquery.mCustomScrollbar.css">
 
+   <link rel="stylesheet" href="vendors/css/nouislider.css">
+
    <script type="text/javascript" src="vendors/js/jquery.js"></script>
 
    <script type="text/javascript" src="slick/slick.js"></script>
@@ -33,7 +35,6 @@
    <script src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
 
    <script type="text/javascript" src="vendors/js/jquery.easydropdown.js"></script>
-
 
    <script type="text/javascript" src="vendors/js/wow.min.js"></script>
    <script>new WOW().init();</script>
@@ -607,7 +608,7 @@
 
                   <h2 class="inner-page-h">Диваны прямые из ткани</h2>
 
-                  <div class="selected-box">
+                 <!--  <div class="selected-box">
 
                      <div class="select-box">
                      
@@ -663,306 +664,887 @@
 
                      </div>
 
-                  </div>
+                  </div> -->
 
-                  <div class="catalog-thumbnails offset-ziro">
+                  <div class="two-cols-templ clearfix">
 
-                     <div class="good-thumb-box">
+                     <div class="sidebar">
+
+                        <form>
                         
-                        <div class="good-thumb">
+                        <div class="sidebar-sect">
+
+                           <div class="sidebar-sect-head">
                            
-                           <div class="img-box">
+                              <h3>Тип механизма</h3>
 
-                              <div class="good-thumb-top-row offset-ziro">
-
-                                 <div class="col">
-
-                                    <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
-
-                                 </div>
-
-                                 <div class="col col-2">
-
-                                    <p class="new">новинка</p>
-                                    <br />
-                                    <p class="sale">-41%</p>
-
-                                 </div>
-
-                              </div>
-                              
-                              <img class="good-photo" src="goods/photo_1.jpg" alt="Модель 009" >
+                              <button type="button" class="show-sort-btn"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
 
                            </div>
 
-                           <div class="good-thumb-text">
+                           <div class="drop-wrapp">
                               
-                              <p class="p-1">Модель 009</p>
-
-                              <p>Артикул: 000830</p>
-                              <p>Габариты (ШхГхВ): 205x93x89</p>
-                              <p>Объем бельевицы: 185 л</p>
-                              <p>Велюр</p>
-
-                           </div>
-
-                           <div class="good-thumb-bottom-row offset-ziro">
+                              <div class="drop-box">
                               
-                              <div class="col col-1">
-                                 
-                                 <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+                                 <div class="checkboxes">
 
-                                 <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+                                    <div class="checkbox-box">
 
-                              </div>
+                                       <input id="check1" type="checkbox" name="checkbox" value="check1" required>
+                                       <label for="check1">Дельфин</label>
 
-                              <div class="col col-2">
-                                 
-                                 <button class="to-card-btn">в корзину</button>
+                                    </div>
 
-                              </div>
+                                    <div class="checkbox-box">
 
-                           </div>
+                                       <input id="check2" type="checkbox" name="checkbox" value="check2" required>
+                                       <label for="check2">Еврокнижка</label>
 
-                        </div>
+                                    </div>
 
-                     </div>
+                                    <div class="checkbox-box">
 
-                     <div class="good-thumb-box">
+                                       <input id="check3" type="checkbox" name="checkbox" value="check3" required>
+                                       <label for="check3">Аккордеон</label>
 
-                        <div class="good-thumb">
-                           
-                           <div class="img-box">
+                                    </div>
 
-                              <div class="good-thumb-top-row offset-ziro">
+                                    <div class="checkbox-box">
 
-                                 <div class="col">
+                                       <input id="check4" type="checkbox" name="checkbox" value="check4" required>
+                                       <label for="check4">Высоковыкатной</label>
 
-                                    <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
+                                    </div>
 
-                                 </div>
+                                    <div class="checkbox-box">
 
-                                 <div class="col col-2">
+                                       <input id="check5" type="checkbox" name="checkbox" value="check5" required>
+                                       <label for="check5">Без механизма</label>
 
-                                    <p class="new">новинка</p>
-                                    <br />
-                                    <p class="sale">-41%</p>
+                                    </div>
+
+                                    <div class="checkbox-box">
+
+                                       <input id="check6" type="checkbox" name="checkbox" value="check6" required>
+                                       <label for="check6">Клик-Кляк</label>
+
+                                    </div>
 
                                  </div>
 
                               </div>
-                              
-                              <img src="goods/photo_2.jpg" alt="Модель 009" >
 
                            </div>
 
-                           <div class="good-thumb-text">
-                              
-                              <p class="p-1">Модель 012</p>
-
-                              <p>Артикул: 000830</p>
-                              <p>Габариты (ШхГхВ): 205x93x89</p>
-                              <p>Объем бельевицы: 185 л</p>
-                              <p>Велюр</p>
-
                            </div>
 
-                           <div class="good-thumb-bottom-row offset-ziro">
-                              
-                              <div class="col col-1">
-                                 
-                                 <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+                           <div class="sidebar-sect">
 
-                                 <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+                              <div class="sidebar-sect-head">
+                              
+                                 <h3>Цена</h3>
+
+                                 <button type="button" class="show-sort-btn"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
 
                               </div>
 
-                              <div class="col col-2">
+                              <div class="drop-wrapp">
                                  
-                                 <button class="to-card-btn">в корзину</button>
-
-                              </div>
-
-                           </div>
-
-                        </div>
-
-                     </div>
-
-                     <div class="good-thumb-box">
-
-                        <div class="good-thumb">
-                           
-                           <div class="img-box">
-
-                              <div class="good-thumb-top-row offset-ziro">
-
-                                 <div class="col">
-
-                                    <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
-
-                                 </div>
-
-                                 <div class="col col-2">
-
-                                    <p class="new">новинка</p>
-                                    <br />
-                                    <p class="sale">-41%</p>
+                                 <div class="drop-box">
+                                 
+                                    <div id="range-slider_1"></div>
 
                                  </div>
 
                               </div>
-                              
-                              <img src="goods/photo_3.jpg" alt="Модель 009" >
 
                            </div>
 
-                           <div class="good-thumb-text">
+                           <div class="sidebar-sect">
+
+                               <div class="sidebar-sect-head">
                               
-                              <p class="p-1">Модель 127</p>
+                                 <h3>Габариты</h3>
 
-                              <p>Артикул: 000830</p>
-                              <p>Габариты (ШхГхВ): 205x93x89</p>
-                              <p>Объем бельевицы: 185 л</p>
-                              <p>Велюр</p>
-
-                           </div>
-
-                           <div class="good-thumb-bottom-row offset-ziro">
-                              
-                              <div class="col col-1">
-                                 
-                                 <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
-
-                                 <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+                                 <button type="button" class="show-sort-btn"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
 
                               </div>
 
-                              <div class="col col-2">
+                              <div class="drop-wrapp">
                                  
-                                 <button class="to-card-btn">в корзину</button>
+                                 <div class="drop-box">
 
-                              </div>
+                                    <div class="range-box">
 
-                           </div>
+                                       <h3></h3>
+                                 
+                                       <div id="range-slider_2"></div>
 
-                        </div>
+                                    </div>
 
-                     </div>
+                                    <div class="range-box">
 
-                     <div class="good-thumb-box">
+                                       <h3></h3>
+                                 
+                                       <div id="range-slider_3"></div>
 
-                        <div class="good-thumb">
-                           
-                           <div class="img-box">
+                                    </div>
 
-                              <div class="good-thumb-top-row offset-ziro">
+                                    <div class="range-box">
 
-                                 <div class="col">
+                                       <h3></h3>
+                                 
+                                       <div id="range-slider_4"></div>
 
-                                    <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
-
-                                 </div>
-
-                                 <div class="col col-2">
-
-                                    <p class="new">новинка</p>
-                                    <br />
-                                    <p class="sale">-41%</p>
+                                    </div>
 
                                  </div>
 
                               </div>
-                              
-                              <img src="goods/photo_4.jpg" alt="Модель 009" >
 
                            </div>
 
-                           <div class="good-thumb-text">
-                              
-                              <p class="p-1">Модель 021</p>
+                        </form>
 
-                              <p>Артикул: 000830</p>
-                              <p>Габариты (ШхГхВ): 205x93x89</p>
-                              <p>Объем бельевицы: 185 л</p>
-                              <p>Велюр</p>
-
-                           </div>
-
-                           <div class="good-thumb-bottom-row offset-ziro">
-                              
-                              <div class="col col-1">
-                                 
-                                 <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
-
-                                 <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
-
-                              </div>
-
-                              <div class="col col-2">
-                                 
-                                 <button class="to-card-btn">в корзину</button>
-
-                              </div>
-
-                           </div>
-
-                        </div>
-
-                     </div>
-
-                     <div class="good-thumb-box">
+                        <div class="reset-link-box">
                         
-                        <div class="good-thumb">
-                           
-                           <div class="img-box">
+                           <a href="#" class="reset-link"><span class="reset-link-txt">Сбросить</span> <span class="reset-link-x">&#10005;</span></a>
 
-                              <div class="good-thumb-top-row offset-ziro">
+                        </div>
 
-                                 <div class="col">
+                     </div>
 
-                                    <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
+                     <div class="content">
+
+                        <div class="catalog-thumbnails offset-ziro">
+
+                           <div class="good-thumb-box">
+                              
+                              <div class="good-thumb">
+                                 
+                                 <div class="img-box">
+
+                                    <div class="good-thumb-top-row offset-ziro">
+
+                                       <div class="col">
+
+                                          <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
+
+                                       </div>
+
+                                       <div class="col col-2">
+
+                                          <p class="new">новинка</p>
+                                          <br />
+                                          <p class="sale">-41%</p>
+
+                                       </div>
+
+                                    </div>
+                                    
+                                    <img class="good-photo" src="goods/photo_1.jpg" alt="Модель 009" >
 
                                  </div>
 
-                                 <div class="col col-2">
+                                 <div class="good-thumb-text">
+                                    
+                                    <p class="p-1">Модель 009</p>
 
-                                    <p class="new">новинка</p>
-                                    <br />
-                                    <p class="sale">-41%</p>
+                                    <p>Артикул: 000830</p>
+                                    <p>Габариты (ШхГхВ): 205x93x89</p>
+                                    <p>Объем бельевицы: 185 л</p>
+                                    <p>Велюр</p>
+
+                                 </div>
+
+                                 <div class="good-thumb-bottom-row offset-ziro">
+                                    
+                                    <div class="col col-1">
+                                       
+                                       <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                       <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                    </div>
+
+                                    <div class="col col-2">
+                                       
+                                       <button class="to-card-btn">в корзину</button>
+
+                                    </div>
 
                                  </div>
 
                               </div>
-                              
-                              <img class="good-photo" src="goods/photo_1.jpg" alt="Модель 009" >
 
                            </div>
 
-                           <div class="good-thumb-text">
-                              
-                              <p class="p-1">Модель 009</p>
+                           <div class="good-thumb-box">
 
-                              <p>Артикул: 000830</p>
-                              <p>Габариты (ШхГхВ): 205x93x89</p>
-                              <p>Объем бельевицы: 185 л</p>
-                              <p>Велюр</p>
-
-                           </div>
-
-                           <div class="good-thumb-bottom-row offset-ziro">
-                              
-                              <div class="col col-1">
+                              <div class="good-thumb">
                                  
-                                 <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+                                 <div class="img-box">
 
-                                 <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+                                    <div class="good-thumb-top-row offset-ziro">
+
+                                       <div class="col">
+
+                                          <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
+
+                                       </div>
+
+                                       <div class="col col-2">
+
+                                          <p class="new">новинка</p>
+                                          <br />
+                                          <p class="sale">-41%</p>
+
+                                       </div>
+
+                                    </div>
+                                    
+                                    <img src="goods/photo_2.jpg" alt="Модель 009" >
+
+                                 </div>
+
+                                 <div class="good-thumb-text">
+                                    
+                                    <p class="p-1">Модель 012</p>
+
+                                    <p>Артикул: 000830</p>
+                                    <p>Габариты (ШхГхВ): 205x93x89</p>
+                                    <p>Объем бельевицы: 185 л</p>
+                                    <p>Велюр</p>
+
+                                 </div>
+
+                                 <div class="good-thumb-bottom-row offset-ziro">
+                                    
+                                    <div class="col col-1">
+                                       
+                                       <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                       <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                    </div>
+
+                                    <div class="col col-2">
+                                       
+                                       <button class="to-card-btn">в корзину</button>
+
+                                    </div>
+
+                                 </div>
 
                               </div>
 
-                              <div class="col col-2">
+                           </div>
+
+                           <div class="good-thumb-box">
+
+                              <div class="good-thumb">
                                  
-                                 <button class="to-card-btn">в корзину</button>
+                                 <div class="img-box">
+
+                                    <div class="good-thumb-top-row offset-ziro">
+
+                                       <div class="col">
+
+                                          <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
+
+                                       </div>
+
+                                       <div class="col col-2">
+
+                                          <p class="new">новинка</p>
+                                          <br />
+                                          <p class="sale">-41%</p>
+
+                                       </div>
+
+                                    </div>
+                                    
+                                    <img src="goods/photo_3.jpg" alt="Модель 009" >
+
+                                 </div>
+
+                                 <div class="good-thumb-text">
+                                    
+                                    <p class="p-1">Модель 127</p>
+
+                                    <p>Артикул: 000830</p>
+                                    <p>Габариты (ШхГхВ): 205x93x89</p>
+                                    <p>Объем бельевицы: 185 л</p>
+                                    <p>Велюр</p>
+
+                                 </div>
+
+                                 <div class="good-thumb-bottom-row offset-ziro">
+                                    
+                                    <div class="col col-1">
+                                       
+                                       <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                       <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                    </div>
+
+                                    <div class="col col-2">
+                                       
+                                       <button class="to-card-btn">в корзину</button>
+
+                                    </div>
+
+                                 </div>
+
+                              </div>
+
+                           </div>
+
+                           <div class="good-thumb-box">
+
+                              <div class="good-thumb">
+                                 
+                                 <div class="img-box">
+
+                                    <div class="good-thumb-top-row offset-ziro">
+
+                                       <div class="col">
+
+                                          <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
+
+                                       </div>
+
+                                       <div class="col col-2">
+
+                                          <p class="new">новинка</p>
+                                          <br />
+                                          <p class="sale">-41%</p>
+
+                                       </div>
+
+                                    </div>
+                                    
+                                    <img src="goods/photo_4.jpg" alt="Модель 009" >
+
+                                 </div>
+
+                                 <div class="good-thumb-text">
+                                    
+                                    <p class="p-1">Модель 021</p>
+
+                                    <p>Артикул: 000830</p>
+                                    <p>Габариты (ШхГхВ): 205x93x89</p>
+                                    <p>Объем бельевицы: 185 л</p>
+                                    <p>Велюр</p>
+
+                                 </div>
+
+                                 <div class="good-thumb-bottom-row offset-ziro">
+                                    
+                                    <div class="col col-1">
+                                       
+                                       <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                       <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                    </div>
+
+                                    <div class="col col-2">
+                                       
+                                       <button class="to-card-btn">в корзину</button>
+
+                                    </div>
+
+                                 </div>
+
+                              </div>
+
+                           </div>
+
+                           <div class="good-thumb-box">
+                              
+                              <div class="good-thumb">
+                                 
+                                 <div class="img-box">
+
+                                    <div class="good-thumb-top-row offset-ziro">
+
+                                       <div class="col">
+
+                                          <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
+
+                                       </div>
+
+                                       <div class="col col-2">
+
+                                          <p class="new">новинка</p>
+                                          <br />
+                                          <p class="sale">-41%</p>
+
+                                       </div>
+
+                                    </div>
+                                    
+                                    <img class="good-photo" src="goods/photo_1.jpg" alt="Модель 009" >
+
+                                 </div>
+
+                                 <div class="good-thumb-text">
+                                    
+                                    <p class="p-1">Модель 009</p>
+
+                                    <p>Артикул: 000830</p>
+                                    <p>Габариты (ШхГхВ): 205x93x89</p>
+                                    <p>Объем бельевицы: 185 л</p>
+                                    <p>Велюр</p>
+
+                                 </div>
+
+                                 <div class="good-thumb-bottom-row offset-ziro">
+                                    
+                                    <div class="col col-1">
+                                       
+                                       <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                       <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                    </div>
+
+                                    <div class="col col-2">
+                                       
+                                       <button class="to-card-btn">в корзину</button>
+
+                                    </div>
+
+                                 </div>
+
+                              </div>
+
+                           </div>
+
+                           <div class="good-thumb-box">
+
+                              <div class="good-thumb">
+                                 
+                                 <div class="img-box">
+
+                                    <div class="good-thumb-top-row offset-ziro">
+
+                                       <div class="col">
+
+                                          <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
+
+                                       </div>
+
+                                       <div class="col col-2">
+
+                                          <p class="new">новинка</p>
+                                          <br />
+                                          <p class="sale">-41%</p>
+
+                                       </div>
+
+                                    </div>
+                                    
+                                    <img src="goods/photo_2.jpg" alt="Модель 009" >
+
+                                 </div>
+
+                                 <div class="good-thumb-text">
+                                    
+                                    <p class="p-1">Модель 012</p>
+
+                                    <p>Артикул: 000830</p>
+                                    <p>Габариты (ШхГхВ): 205x93x89</p>
+                                    <p>Объем бельевицы: 185 л</p>
+                                    <p>Велюр</p>
+
+                                 </div>
+
+                                 <div class="good-thumb-bottom-row offset-ziro">
+                                    
+                                    <div class="col col-1">
+                                       
+                                       <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                       <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                    </div>
+
+                                    <div class="col col-2">
+                                       
+                                       <button class="to-card-btn">в корзину</button>
+
+                                    </div>
+
+                                 </div>
+
+                              </div>
+
+                           </div>
+
+                           <div class="good-thumb-box">
+
+                              <div class="good-thumb">
+                                 
+                                 <div class="img-box">
+
+                                    <div class="good-thumb-top-row offset-ziro">
+
+                                       <div class="col">
+
+                                          <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
+
+                                       </div>
+
+                                       <div class="col col-2">
+
+                                          <p class="new">новинка</p>
+                                          <br />
+                                          <p class="sale">-41%</p>
+
+                                       </div>
+
+                                    </div>
+                                    
+                                    <img src="goods/photo_3.jpg" alt="Модель 009" >
+
+                                 </div>
+
+                                 <div class="good-thumb-text">
+                                    
+                                    <p class="p-1">Модель 127</p>
+
+                                    <p>Артикул: 000830</p>
+                                    <p>Габариты (ШхГхВ): 205x93x89</p>
+                                    <p>Объем бельевицы: 185 л</p>
+                                    <p>Велюр</p>
+
+                                 </div>
+
+                                 <div class="good-thumb-bottom-row offset-ziro">
+                                    
+                                    <div class="col col-1">
+                                       
+                                       <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                       <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                    </div>
+
+                                    <div class="col col-2">
+                                       
+                                       <button class="to-card-btn">в корзину</button>
+
+                                    </div>
+
+                                 </div>
+
+                              </div>
+
+                           </div>
+
+                           <div class="good-thumb-box">
+
+                              <div class="good-thumb">
+                                 
+                                 <div class="img-box">
+
+                                    <div class="good-thumb-top-row offset-ziro">
+
+                                       <div class="col">
+
+                                          <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
+
+                                       </div>
+
+                                       <div class="col col-2">
+
+                                          <p class="new">новинка</p>
+                                          <br />
+                                          <p class="sale">-41%</p>
+
+                                       </div>
+
+                                    </div>
+                                    
+                                    <img src="goods/photo_4.jpg" alt="Модель 009" >
+
+                                 </div>
+
+                                 <div class="good-thumb-text">
+                                    
+                                    <p class="p-1">Модель 021</p>
+
+                                    <p>Артикул: 000830</p>
+                                    <p>Габариты (ШхГхВ): 205x93x89</p>
+                                    <p>Объем бельевицы: 185 л</p>
+                                    <p>Велюр</p>
+
+                                 </div>
+
+                                 <div class="good-thumb-bottom-row offset-ziro">
+                                    
+                                    <div class="col col-1">
+                                       
+                                       <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                       <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                    </div>
+
+                                    <div class="col col-2">
+                                       
+                                       <button class="to-card-btn">в корзину</button>
+
+                                    </div>
+
+                                 </div>
+
+                              </div>
+
+                           </div>
+
+                           <div class="good-thumb-box">
+                              
+                              <div class="good-thumb">
+                                 
+                                 <div class="img-box">
+
+                                    <div class="good-thumb-top-row offset-ziro">
+
+                                       <div class="col">
+
+                                          <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
+
+                                       </div>
+
+                                       <div class="col col-2">
+
+                                          <p class="new">новинка</p>
+                                          <br />
+                                          <p class="sale">-41%</p>
+
+                                       </div>
+
+                                    </div>
+                                    
+                                    <img class="good-photo" src="goods/photo_1.jpg" alt="Модель 009" >
+
+                                 </div>
+
+                                 <div class="good-thumb-text">
+                                    
+                                    <p class="p-1">Модель 009</p>
+
+                                    <p>Артикул: 000830</p>
+                                    <p>Габариты (ШхГхВ): 205x93x89</p>
+                                    <p>Объем бельевицы: 185 л</p>
+                                    <p>Велюр</p>
+
+                                 </div>
+
+                                 <div class="good-thumb-bottom-row offset-ziro">
+                                    
+                                    <div class="col col-1">
+                                       
+                                       <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                       <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                    </div>
+
+                                    <div class="col col-2">
+                                       
+                                       <button class="to-card-btn">в корзину</button>
+
+                                    </div>
+
+                                 </div>
+
+                              </div>
+
+                           </div>
+
+                           <div class="good-thumb-box">
+
+                              <div class="good-thumb">
+                                 
+                                 <div class="img-box">
+
+                                    <div class="good-thumb-top-row offset-ziro">
+
+                                       <div class="col">
+
+                                          <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
+
+                                       </div>
+
+                                       <div class="col col-2">
+
+                                          <p class="new">новинка</p>
+                                          <br />
+                                          <p class="sale">-41%</p>
+
+                                       </div>
+
+                                    </div>
+                                    
+                                    <img src="goods/photo_2.jpg" alt="Модель 009" >
+
+                                 </div>
+
+                                 <div class="good-thumb-text">
+                                    
+                                    <p class="p-1">Модель 012</p>
+
+                                    <p>Артикул: 000830</p>
+                                    <p>Габариты (ШхГхВ): 205x93x89</p>
+                                    <p>Объем бельевицы: 185 л</p>
+                                    <p>Велюр</p>
+
+                                 </div>
+
+                                 <div class="good-thumb-bottom-row offset-ziro">
+                                    
+                                    <div class="col col-1">
+                                       
+                                       <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                       <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                    </div>
+
+                                    <div class="col col-2">
+                                       
+                                       <button class="to-card-btn">в корзину</button>
+
+                                    </div>
+
+                                 </div>
+
+                              </div>
+
+                           </div>
+
+                           <div class="good-thumb-box">
+
+                              <div class="good-thumb">
+                                 
+                                 <div class="img-box">
+
+                                    <div class="good-thumb-top-row offset-ziro">
+
+                                       <div class="col">
+
+                                          <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
+
+                                       </div>
+
+                                       <div class="col col-2">
+
+                                          <p class="new">новинка</p>
+                                          <br />
+                                          <p class="sale">-41%</p>
+
+                                       </div>
+
+                                    </div>
+                                    
+                                    <img src="goods/photo_3.jpg" alt="Модель 009" >
+
+                                 </div>
+
+                                 <div class="good-thumb-text">
+                                    
+                                    <p class="p-1">Модель 127</p>
+
+                                    <p>Артикул: 000830</p>
+                                    <p>Габариты (ШхГхВ): 205x93x89</p>
+                                    <p>Объем бельевицы: 185 л</p>
+                                    <p>Велюр</p>
+
+                                 </div>
+
+                                 <div class="good-thumb-bottom-row offset-ziro">
+                                    
+                                    <div class="col col-1">
+                                       
+                                       <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                       <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                    </div>
+
+                                    <div class="col col-2">
+                                       
+                                       <button class="to-card-btn">в корзину</button>
+
+                                    </div>
+
+                                 </div>
+
+                              </div>
+
+                           </div>
+
+                           <div class="good-thumb-box">
+
+                              <div class="good-thumb">
+                                 
+                                 <div class="img-box">
+
+                                    <div class="good-thumb-top-row offset-ziro">
+
+                                       <div class="col">
+
+                                          <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
+
+                                       </div>
+
+                                       <div class="col col-2">
+
+                                          <p class="new">новинка</p>
+                                          <br />
+                                          <p class="sale">-41%</p>
+
+                                       </div>
+
+                                    </div>
+                                    
+                                    <img src="goods/photo_4.jpg" alt="Модель 009" >
+
+                                 </div>
+
+                                 <div class="good-thumb-text">
+                                    
+                                    <p class="p-1">Модель 021</p>
+
+                                    <p>Артикул: 000830</p>
+                                    <p>Габариты (ШхГхВ): 205x93x89</p>
+                                    <p>Объем бельевицы: 185 л</p>
+                                    <p>Велюр</p>
+
+                                 </div>
+
+                                 <div class="good-thumb-bottom-row offset-ziro">
+                                    
+                                    <div class="col col-1">
+                                       
+                                       <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                       <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                                    </div>
+
+                                    <div class="col col-2">
+                                       
+                                       <button class="to-card-btn">в корзину</button>
+
+                                    </div>
+
+                                 </div>
 
                               </div>
 
@@ -970,478 +1552,51 @@
 
                         </div>
 
-                     </div>
+                        <div>
 
-                     <div class="good-thumb-box">
-
-                        <div class="good-thumb">
+                           <div class="desctop-pagination">
                            
-                           <div class="img-box">
+                              <ul class="pagimation-list">
 
-                              <div class="good-thumb-top-row offset-ziro">
+                                 <li><a href="#" class="pagination-link pagination-first pagination-arrow"></a></li>
+                                 <li><a href="#" class="pagination-link pagination-prev pagination-arrow"></a></li>
+                                 
+                                 <li><a href="#" class="pagination-link active pagination-num">1</a></li>
+                                 <li><a href="#" class="pagination-link pagination-num">2</a></li>
+                                 <li><a href="#" class="pagination-link pagination-num">3</a></li>
+                                 <li><a href="#" class="pagination-link pagination-num">4</a></li>
 
-                                 <div class="col">
+                                 <li><a href="#" class="pagination-link pagination-next pagination-arrow"></a></li>
+                                 <li><a href="#" class="pagination-link pagination-last pagination-arrow"></a></li>
 
-                                    <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
-
-                                 </div>
-
-                                 <div class="col col-2">
-
-                                    <p class="new">новинка</p>
-                                    <br />
-                                    <p class="sale">-41%</p>
-
-                                 </div>
-
-                              </div>
-                              
-                              <img src="goods/photo_2.jpg" alt="Модель 009" >
+                              </ul>
 
                            </div>
 
-                           <div class="good-thumb-text">
-                              
-                              <p class="p-1">Модель 012</p>
+                           <div class="mob-pagination">
 
-                              <p>Артикул: 000830</p>
-                              <p>Габариты (ШхГхВ): 205x93x89</p>
-                              <p>Объем бельевицы: 185 л</p>
-                              <p>Велюр</p>
-
-                           </div>
-
-                           <div class="good-thumb-bottom-row offset-ziro">
-                              
-                              <div class="col col-1">
+                              <ul class="pagimation-list">                        
                                  
-                                 <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+                                 <li><a href="#" class="pagination-link active pagination-num">1</a></li>
+                                 <li><a href="#" class="pagination-link pagination-num">2</a></li>
+                                 <li><a href="#" class="pagination-link pagination-num">3</a></li>
+                                 <li><a href="#" class="pagination-link pagination-num">4</a></li>                           
 
-                                 <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
+                              </ul>
 
-                              </div>
-
-                              <div class="col col-2">
+                              <ul class="pagination-arrows-mob">
                                  
-                                 <button class="to-card-btn">в корзину</button>
+                                 <li class="pagination-arrow-item"><a href="#" class="pagination-link pagination-first pagination-arrow"></a></li>
+                                 <li class="pagination-arrow-item"><a href="#" class="pagination-link pagination-prev pagination-arrow"></a></li>
 
-                              </div>
+                                 <li class="pagination-arrow-item"><a href="#" class="pagination-link pagination-next pagination-arrow"></a></li>
+                                 <li class="pagination-arrow-item"><a href="#" class="pagination-link pagination-last pagination-arrow"></a></li>
+
+                              </ul>
 
                            </div>
 
                         </div>
-
-                     </div>
-
-                     <div class="good-thumb-box">
-
-                        <div class="good-thumb">
-                           
-                           <div class="img-box">
-
-                              <div class="good-thumb-top-row offset-ziro">
-
-                                 <div class="col">
-
-                                    <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
-
-                                 </div>
-
-                                 <div class="col col-2">
-
-                                    <p class="new">новинка</p>
-                                    <br />
-                                    <p class="sale">-41%</p>
-
-                                 </div>
-
-                              </div>
-                              
-                              <img src="goods/photo_3.jpg" alt="Модель 009" >
-
-                           </div>
-
-                           <div class="good-thumb-text">
-                              
-                              <p class="p-1">Модель 127</p>
-
-                              <p>Артикул: 000830</p>
-                              <p>Габариты (ШхГхВ): 205x93x89</p>
-                              <p>Объем бельевицы: 185 л</p>
-                              <p>Велюр</p>
-
-                           </div>
-
-                           <div class="good-thumb-bottom-row offset-ziro">
-                              
-                              <div class="col col-1">
-                                 
-                                 <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
-
-                                 <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
-
-                              </div>
-
-                              <div class="col col-2">
-                                 
-                                 <button class="to-card-btn">в корзину</button>
-
-                              </div>
-
-                           </div>
-
-                        </div>
-
-                     </div>
-
-                     <div class="good-thumb-box">
-
-                        <div class="good-thumb">
-                           
-                           <div class="img-box">
-
-                              <div class="good-thumb-top-row offset-ziro">
-
-                                 <div class="col">
-
-                                    <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
-
-                                 </div>
-
-                                 <div class="col col-2">
-
-                                    <p class="new">новинка</p>
-                                    <br />
-                                    <p class="sale">-41%</p>
-
-                                 </div>
-
-                              </div>
-                              
-                              <img src="goods/photo_4.jpg" alt="Модель 009" >
-
-                           </div>
-
-                           <div class="good-thumb-text">
-                              
-                              <p class="p-1">Модель 021</p>
-
-                              <p>Артикул: 000830</p>
-                              <p>Габариты (ШхГхВ): 205x93x89</p>
-                              <p>Объем бельевицы: 185 л</p>
-                              <p>Велюр</p>
-
-                           </div>
-
-                           <div class="good-thumb-bottom-row offset-ziro">
-                              
-                              <div class="col col-1">
-                                 
-                                 <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
-
-                                 <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
-
-                              </div>
-
-                              <div class="col col-2">
-                                 
-                                 <button class="to-card-btn">в корзину</button>
-
-                              </div>
-
-                           </div>
-
-                        </div>
-
-                     </div>
-
-                     <div class="good-thumb-box">
-                        
-                        <div class="good-thumb">
-                           
-                           <div class="img-box">
-
-                              <div class="good-thumb-top-row offset-ziro">
-
-                                 <div class="col">
-
-                                    <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
-
-                                 </div>
-
-                                 <div class="col col-2">
-
-                                    <p class="new">новинка</p>
-                                    <br />
-                                    <p class="sale">-41%</p>
-
-                                 </div>
-
-                              </div>
-                              
-                              <img class="good-photo" src="goods/photo_1.jpg" alt="Модель 009" >
-
-                           </div>
-
-                           <div class="good-thumb-text">
-                              
-                              <p class="p-1">Модель 009</p>
-
-                              <p>Артикул: 000830</p>
-                              <p>Габариты (ШхГхВ): 205x93x89</p>
-                              <p>Объем бельевицы: 185 л</p>
-                              <p>Велюр</p>
-
-                           </div>
-
-                           <div class="good-thumb-bottom-row offset-ziro">
-                              
-                              <div class="col col-1">
-                                 
-                                 <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
-
-                                 <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
-
-                              </div>
-
-                              <div class="col col-2">
-                                 
-                                 <button class="to-card-btn">в корзину</button>
-
-                              </div>
-
-                           </div>
-
-                        </div>
-
-                     </div>
-
-                     <div class="good-thumb-box">
-
-                        <div class="good-thumb">
-                           
-                           <div class="img-box">
-
-                              <div class="good-thumb-top-row offset-ziro">
-
-                                 <div class="col">
-
-                                    <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
-
-                                 </div>
-
-                                 <div class="col col-2">
-
-                                    <p class="new">новинка</p>
-                                    <br />
-                                    <p class="sale">-41%</p>
-
-                                 </div>
-
-                              </div>
-                              
-                              <img src="goods/photo_2.jpg" alt="Модель 009" >
-
-                           </div>
-
-                           <div class="good-thumb-text">
-                              
-                              <p class="p-1">Модель 012</p>
-
-                              <p>Артикул: 000830</p>
-                              <p>Габариты (ШхГхВ): 205x93x89</p>
-                              <p>Объем бельевицы: 185 л</p>
-                              <p>Велюр</p>
-
-                           </div>
-
-                           <div class="good-thumb-bottom-row offset-ziro">
-                              
-                              <div class="col col-1">
-                                 
-                                 <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
-
-                                 <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
-
-                              </div>
-
-                              <div class="col col-2">
-                                 
-                                 <button class="to-card-btn">в корзину</button>
-
-                              </div>
-
-                           </div>
-
-                        </div>
-
-                     </div>
-
-                     <div class="good-thumb-box">
-
-                        <div class="good-thumb">
-                           
-                           <div class="img-box">
-
-                              <div class="good-thumb-top-row offset-ziro">
-
-                                 <div class="col">
-
-                                    <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
-
-                                 </div>
-
-                                 <div class="col col-2">
-
-                                    <p class="new">новинка</p>
-                                    <br />
-                                    <p class="sale">-41%</p>
-
-                                 </div>
-
-                              </div>
-                              
-                              <img src="goods/photo_3.jpg" alt="Модель 009" >
-
-                           </div>
-
-                           <div class="good-thumb-text">
-                              
-                              <p class="p-1">Модель 127</p>
-
-                              <p>Артикул: 000830</p>
-                              <p>Габариты (ШхГхВ): 205x93x89</p>
-                              <p>Объем бельевицы: 185 л</p>
-                              <p>Велюр</p>
-
-                           </div>
-
-                           <div class="good-thumb-bottom-row offset-ziro">
-                              
-                              <div class="col col-1">
-                                 
-                                 <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
-
-                                 <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
-
-                              </div>
-
-                              <div class="col col-2">
-                                 
-                                 <button class="to-card-btn">в корзину</button>
-
-                              </div>
-
-                           </div>
-
-                        </div>
-
-                     </div>
-
-                     <div class="good-thumb-box">
-
-                        <div class="good-thumb">
-                           
-                           <div class="img-box">
-
-                              <div class="good-thumb-top-row offset-ziro">
-
-                                 <div class="col">
-
-                                    <img class="model-icon" src="img/evroknighka.png" alt="Еврокнижка">
-
-                                 </div>
-
-                                 <div class="col col-2">
-
-                                    <p class="new">новинка</p>
-                                    <br />
-                                    <p class="sale">-41%</p>
-
-                                 </div>
-
-                              </div>
-                              
-                              <img src="goods/photo_4.jpg" alt="Модель 009" >
-
-                           </div>
-
-                           <div class="good-thumb-text">
-                              
-                              <p class="p-1">Модель 021</p>
-
-                              <p>Артикул: 000830</p>
-                              <p>Габариты (ШхГхВ): 205x93x89</p>
-                              <p>Объем бельевицы: 185 л</p>
-                              <p>Велюр</p>
-
-                           </div>
-
-                           <div class="good-thumb-bottom-row offset-ziro">
-                              
-                              <div class="col col-1">
-                                 
-                                 <p class="old-price">26 990<i class="fa fa-rub" aria-hidden="true"></i></p>
-
-                                 <p class="price">16 990<i class="fa fa-rub" aria-hidden="true"></i></p>
-
-                              </div>
-
-                              <div class="col col-2">
-                                 
-                                 <button class="to-card-btn">в корзину</button>
-
-                              </div>
-
-                           </div>
-
-                        </div>
-
-                     </div>
-
-                  </div>
-
-                  <div>
-
-                     <div class="desctop-pagination">
-                     
-                        <ul class="pagimation-list">
-
-                           <li><a href="#" class="pagination-link pagination-first pagination-arrow"></a></li>
-                           <li><a href="#" class="pagination-link pagination-prev pagination-arrow"></a></li>
-                           
-                           <li><a href="#" class="pagination-link active pagination-num">1</a></li>
-                           <li><a href="#" class="pagination-link pagination-num">2</a></li>
-                           <li><a href="#" class="pagination-link pagination-num">3</a></li>
-                           <li><a href="#" class="pagination-link pagination-num">4</a></li>
-
-                           <li><a href="#" class="pagination-link pagination-next pagination-arrow"></a></li>
-                           <li><a href="#" class="pagination-link pagination-last pagination-arrow"></a></li>
-
-                        </ul>
-
-                     </div>
-
-                     <div class="mob-pagination">
-
-                        <ul class="pagimation-list">                        
-                           
-                           <li><a href="#" class="pagination-link active pagination-num">1</a></li>
-                           <li><a href="#" class="pagination-link pagination-num">2</a></li>
-                           <li><a href="#" class="pagination-link pagination-num">3</a></li>
-                           <li><a href="#" class="pagination-link pagination-num">4</a></li>                           
-
-                        </ul>
-
-                        <ul class="pagination-arrows-mob">
-                           
-                           <li class="pagination-arrow-item"><a href="#" class="pagination-link pagination-first pagination-arrow"></a></li>
-                           <li class="pagination-arrow-item"><a href="#" class="pagination-link pagination-prev pagination-arrow"></a></li>
-
-                           <li class="pagination-arrow-item"><a href="#" class="pagination-link pagination-next pagination-arrow"></a></li>
-                           <li class="pagination-arrow-item"><a href="#" class="pagination-link pagination-last pagination-arrow"></a></li>
-
-                        </ul>
 
                      </div>
 
@@ -1502,6 +1657,8 @@
 
       <script src="js/scripts.js"></script>
 
+      <script type="text/javascript" src="vendors/js/nouislider.js"></script>
+
       <script>
 
 
@@ -1549,6 +1706,72 @@
 
       $(function(){
          $('select').easyDropDown();
+      });
+
+      var range_1 = document.getElementById("range-slider_1");
+
+      var range_2 = document.getElementById("range-slider_2");
+
+      var range_3 = document.getElementById("range-slider_3");
+
+      var range_4 = document.getElementById("range-slider_4");
+
+      noUiSlider.create(range_1, {
+
+         start: [35, 500000],
+            connect: true,
+            step: 1,
+            range: {
+               'min': 0,
+               'max': 1000
+            }
+
+      });
+
+      noUiSlider.create(range_2, {
+
+         start: [35, 500000],
+            connect: true,
+            step: 1,
+            range: {
+               'min': 0,
+               'max': 1000
+            }
+
+      });
+
+      noUiSlider.create(range_3, {
+
+         start: [35, 500000],
+            connect: true,
+            step: 1,
+            range: {
+               'min': 0,
+               'max': 1000
+            }
+
+      });
+
+      noUiSlider.create(range_4, {
+
+         start: [35, 500000],
+            connect: true,
+            step: 1,
+            range: {
+               'min': 0,
+               'max': 1000
+            }
+
+      });
+
+      range_1.noUiSlider.on('update', function( values, handle ) {
+
+         $("#range-slider_1 .range-1").val( parseInt( values[0] ) );
+
+         $("#range-slider_1 .range-2").val( parseInt( values[1] ) );
+
+         console.log( parseInt( values[0] ) +"   "+ parseInt( values[1] ) );
+
       });
 
 
