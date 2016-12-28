@@ -100,6 +100,8 @@
 	}
 
 	.range-slider-box {
+		position: relative;
+		top: 1px;
 		margin: 7px 0 0 0;
 	}
 
