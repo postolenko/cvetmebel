@@ -47,9 +47,72 @@
 	
 	/* -- Catalog Page -- */
 
+	/* -- Filters -- */
+
+	.filter-resp {
+	    display: block;
+	}
+
+	.filters {
+	    /*display: block;*/
+	    display: none;
+	    padding: 20px 0 10px 0;
+	    position: fixed;
+	    width: 96%;
+	    top: 1%;
+	    left: 2%;
+	    z-index: 10;
+	    -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0,.5);
+		-moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0,.5);
+		box-shadow: 0px 0px 35px 0px rgba(0, 0, 0,.5);
+	}
+
+	.close-filters-btn {
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.filter-form {
+		padding: 20px 0;
+		max-height: 98vh;
+	}
+
+	.sidebar-sect {
+	    display: inline-block;
+	    vertical-align: top;
+	    width: 32.8%;
+	    background: rgba(206, 234, 247, 1);
+	    border-bottom: 1px solid transparent;
+	    padding: 25px 2%;
+	}
+
+	.sidebar .reset-link-box {
+		display: none;
+	}
+
+	/* -- /Filters -- */
+
+	.two-cols-templ {
+	    padding: 50px 0 0 0;
+	}
+
+	.two-cols-templ .sidebar {
+	    display: block;
+	    width: 0;
+	    float: none;
+	    margin: 0; 
+	}
+
+	.two-cols-templ .content {
+		display: block;
+		width: 100%;
+	}
+
 	.good-thumb-box {
 	    width: 33.33%;
 	}
+
+
 
 	/* -- /Catalog Page -- */
 
@@ -283,6 +346,10 @@
 	    padding: 0 0 0 10px;
 	}
 
+	.sidebar-sect {
+	    width: 100%;
+	}
+
 	.good-thumb-box {
 	    width: 50%;
 	}
@@ -311,6 +378,11 @@
 
 	.header-row-2 .col-5 {
 	    width: 50%;
+	}
+
+	.inner-page-h {
+	    font-size: 36px;
+	    line-height: 41px;
 	}
 
 	/*-- Footer --*/
@@ -576,5 +648,13 @@
 	}
 
 	/* -- /Catalog Page -- */
+
+}
+
+@media screen and (min-width: 1024px) {
+
+	.filters {
+		display: block !important;
+	}
 
 }
