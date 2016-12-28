@@ -330,7 +330,7 @@
     top: -4px;
     height: 14px;
     width: 14px;
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
 }
 
 .noUi-horizontal .noUi-handle {
