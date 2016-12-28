@@ -123,6 +123,14 @@
 	    width: 33.33%;
 	}
 
+	.footer .col-2 h3 {
+	    display: none;
+	}
+
+	.soc-nets-list {
+	    width: 100%;
+	}
+
 
 
 	/* -- /Catalog Page -- */
@@ -401,7 +409,14 @@
 	.footer .col {
 	    width: 100%;
 	    text-align: center;
-	    padding: 5px 0;
+	    padding: 10px 0;
+	}
+
+	.footer .col-2 h3 {
+	    display: block;
+	    width: 100%;
+	    text-align: center;
+	    padding: 0 0 5px 0;
 	}
 
 	.web-studio {
