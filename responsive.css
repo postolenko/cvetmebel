@@ -75,6 +75,7 @@
 	.filter-form {
 		padding: 20px 0;
 		max-height: 98vh;
+		overflow-y: scroll;
 	}
 
 	.sidebar-sect {
