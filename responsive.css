@@ -99,6 +99,10 @@
 		display: none;
 	}
 
+	.range-slider-box {
+		margin: 7px 0 0 0;
+	}
+
 	/* -- /Filters -- */
 
 	.two-cols-templ {
