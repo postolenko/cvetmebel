@@ -39,9 +39,11 @@ $(document).ready(function() {
 
         // ------------------------------------------------------------------------------------------------------------------
 
-        $(".filter-form .for-scroll").css({"min-height" : ( $(window).height() - $(".filter-form .btn-box").outerHeight(true) - 50 ) + "px"});
+        if( bodyWidth <= 1024 ) {
 
-        console.log( $(".filter-form .for-scroll").height() );
+            $(".filter-form .for-scroll").css({"height" : ( $(window).height() * .85 ) + "px"});
+
+        }
 
         // ------------------------------------------------------------------------------------------------------------------
 
@@ -256,9 +258,11 @@ $(document).ready(function() {
 
     $(function() {
 
-        $(".filter-form .for-scroll").css({"height" : ( $(window).height() - $(".filter-form .btn-box").outerHeight(true) - 50 ) + "px"});
+        if( bodyWidth <= 1024 ) {
 
-        console.log( $(".filter-form .for-scroll").height() );
+            $(".filter-form .for-scroll").css({"height" : ( $(window).height() * .85 ) + "px"});
+
+        }
 
     });    
 
