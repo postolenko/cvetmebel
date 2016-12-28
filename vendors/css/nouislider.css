@@ -324,3 +324,17 @@
     -webkit-transition: background 450ms;
     transition: background 450ms;
 }
+
+.noUi-origin {
+    position: absolute;
+    top: -4px;
+    height: 14px;
+    width: 14px;
+}
+
+.noUi-horizontal .noUi-handle {
+    width: 16px;
+    height: 16px;
+    left: -2px;
+    top: -2px;
+}
