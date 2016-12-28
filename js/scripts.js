@@ -37,6 +37,14 @@ $(document).ready(function() {
 
         // paginationArrowsAppend();
 
+        // ------------------------------------------------------------------------------------------------------------------
+
+        $(".filter-form .for-scroll").css({"min-height" : ( $(window).height() - $(".filter-form .btn-box").outerHeight(true) - 50 ) + "px"});
+
+        console.log( $(".filter-form .for-scroll").height() );
+
+        // ------------------------------------------------------------------------------------------------------------------
+
     });
     
 
@@ -244,8 +252,15 @@ $(document).ready(function() {
 
     });
 
+    // ----------------------------------------------------------------
 
-    
+    $(function() {
+
+        $(".filter-form .for-scroll").css({"height" : ( $(window).height() - $(".filter-form .btn-box").outerHeight(true) - 50 ) + "px"});
+
+        console.log( $(".filter-form .for-scroll").height() );
+
+    });    
 
     // ----------------------------------------------------------------
 

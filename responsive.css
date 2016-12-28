@@ -77,13 +77,11 @@
 
 	.filter-form {
 		padding: 20px 0;
-		/*max-height: 98vh;*/
-		/*overflow-y: scroll;*/
 	}
 
 	.for-scroll {
 		width: 120%;
-		padding: 0 20% 0 0;
+		padding: 0 20% 20px 0;
 		max-height: 350px;
 		overflow-y: scroll;
 	}
