@@ -181,34 +181,6 @@
 
          </div>
 
-<!--          <div class="promobox-mob">
-            
-            <div class="logo-box-mob">
-               
-               <img class="logo-mob" src="img/logo_mob.png" alt="Цветмебель" >
-
-            </div>
-
-            <h1>ЦветМебель</h1>
-
-            <h2>Интернет-магазин</h2>
-
-            <button class="sroll-down">
-
-               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129" enable-background="new 0 0 129 129" width="34px" height="40px">
-
-                 <g>
-
-                   <path d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" fill="#342e1f"/>
-
-                 </g>
-
-               </svg>
-
-            </button>
-
-         </div> -->
-
          <div class="main-navigation">
             
             <div class="main-navigation-row">
@@ -607,64 +579,6 @@
                <div class="row">
 
                   <h2 class="inner-page-h">Диваны прямые из ткани</h2>
-
-                 <!--  <div class="selected-box">
-
-                     <div class="select-box">
-                     
-                        <select>
-                           
-                           <option value="0">Тип механизма</option>
-                           <option value="1">Дельфин</option>
-                           <option value="2">Еврокнижка</option>
-                           <option value="3">Аккордеон</option>
-                           <option value="4">Высоковыкатной</option>
-                           <option value="5">Без механизма</option>
-                           <option value="6">Клик-Кляк</option>
-
-                        </select>
-
-                     </div>
-
-                     <div class="select-box">
-                     
-                        <select>
-
-                           <option value="0">Материал</option>
-                           <option value="1">Дельфин</option>
-                           <option value="2">Еврокнижка</option>
-                           <option value="3">Аккордеон</option>
-                           <option value="4">Высоковыкатной</option>
-                           <option value="5">Без механизма</option>
-                           <option value="6">Клик-Кляк</option>
-
-                        </select>
-
-                     </div>
-
-                     <div class="select-box">
-                     
-                        <select>
-
-                           <option value="0">Цена</option>
-                           <option value="1">Дельфин</option>
-                           <option value="2">Еврокнижка</option>
-                           <option value="3">Аккордеон</option>
-                           <option value="4">Высоковыкатной</option>
-                           <option value="5">Без механизма</option>
-                           <option value="6">Клик-Кляк</option>
-
-                        </select>
-
-                     </div>
-
-                     <div class="reset-link-box">
-                        
-                        <a href="#" class="reset-link"><span class="reset-link-txt">Сбросить</span> <span class="reset-link-x">&#10005;</span></a>
-
-                     </div>
-
-                  </div> -->
 
                   <div class="two-cols-templ clearfix">
 
@@ -1858,8 +1772,6 @@
                
                $(".resp-main-navigation").mCustomScrollbar();
 
-               // $(".filter-form").mCustomScrollbar();
-
             });
 
          })(jQuery);
@@ -1956,15 +1868,9 @@
 
       });
 
-      // console.log( noUiSlider );
-
       var inputRange;
 
       var maxRange;
-
-      // console.log(range_1.noUiSlider.options.range.max);
-
-      // console.log(range_1.range);
 
       range_1.noUiSlider.on('update', function( values, handle, range ) {
 
@@ -2003,22 +1909,9 @@
 
          inputRange = $(this).attr("data-range");
 
-         var indexRange = $(".range-slider-val input").index(this);
+         indexRange = $(".range-slider-val input").index(this);
 
-         var maxRange = parseInt( document.getElementById("range-" + inputRange).noUiSlider.options.range.max );
-
-         // offsetLeftRangeLeft = parseInt( $("#input_1_range-" + inputRange).val() ) / ( maxRange / 100 );
-
-         // offsetLeftRangeRight = parseInt( $("#input_2_range-" + inputRange).val() ) / ( maxRange / 100 );
-
-
-         // $("#range-" + inputRange + " .noUi-connect").animate({
-
-         //                      "left" : offsetLeftRangeLeft + "%",
-         //                      "right" : ( 100 - offsetLeftRangeRight ) + "%"
-
-         //                   }, 300);
-
+         maxRange = parseInt( document.getElementById("range-" + inputRange).noUiSlider.options.range.max );
 
          if( $(this).hasClass("input-range-1") ) {
 
