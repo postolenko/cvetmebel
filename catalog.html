@@ -2005,7 +2005,7 @@
 
          var indexRange = $(".range-slider-val input").index(this);
 
-         maxRange = parseInt( document.getElementById("range-" + inputRange).noUiSlider.options.range.max );
+         var maxRange = parseInt( document.getElementById("range-" + inputRange).noUiSlider.options.range.max );
 
          // offsetLeftRangeLeft = parseInt( $("#input_1_range-" + inputRange).val() ) / ( maxRange / 100 );
 
@@ -2029,7 +2029,7 @@
                offsetLeftRangeRight = parseInt( $("#input_2_range-" + inputRange).val() ) / ( maxRange / 100 );
 
 
-         $("#range-" + inputRange + " .noUi-connect").animate({
+               $("#range-" + inputRange + " .noUi-connect").animate({
 
                               "left" : offsetLeftRangeLeft + "%",
                               "right" : ( 100 - offsetLeftRangeRight ) + "%"
@@ -2044,14 +2044,14 @@
 
             if ( /[0-9.]/.test( $(this).val() ) == true && 
                $(this).val() <= maxRange && 
-               $(this).val() > $(".range-slider-val input:eq("+ ( indexRange - 1 ) +")").val() ) {
+               parseInt( $(this).val() ) > parseInt( $(".range-slider-val input:eq("+ ( indexRange - 1 ) +")").val() ) ) {
 
                offsetLeftRangeLeft = parseInt( $("#input_1_range-" + inputRange).val() ) / ( maxRange / 100 );
 
                offsetLeftRangeRight = parseInt( $("#input_2_range-" + inputRange).val() ) / ( maxRange / 100 );
 
 
-         $("#range-" + inputRange + " .noUi-connect").animate({
+               $("#range-" + inputRange + " .noUi-connect").animate({
 
                               "left" : offsetLeftRangeLeft + "%",
                               "right" : ( 100 - offsetLeftRangeRight ) + "%"
@@ -2059,6 +2059,7 @@
                            }, 300);
 
                $("#range-" + inputRange + " .noUi-origin:last-child()").animate({"left" : offsetLeftRangeRight + "%"}, 300);
+
 
             }
 
