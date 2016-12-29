@@ -54,7 +54,6 @@
 	}
 
 	.filters {
-	    /*display: block;*/
 	    display: none;
 	    padding: 20px 0 10px 0;
 	    position: fixed;
@@ -64,7 +63,6 @@
 	    left: 2%;
 	    z-index: 10;
 	    overflow: hidden;
-	    /*overflow-y: scroll;*/
 	    -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0,.5);
 		-moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0,.5);
 		box-shadow: 0px 0px 35px 0px rgba(0, 0, 0,.5);
@@ -259,7 +257,6 @@
 	}
 
 	.slide-desript {
-	    /*bottom: 67px;*/
 	    min-width: 430px;
 	}
 
@@ -475,10 +472,6 @@
 	.promo-slider-box {
 	    height: 320px;
 	}
-
-/*	.promo-slider-slide .slick-slide {
-	    min-height: 320px !important;
-	}*/
 
 	.slick-track {
 		position: relative;

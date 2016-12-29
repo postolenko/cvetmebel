@@ -171,26 +171,12 @@ section {
     padding: 30px 0 10px 0;
 }
 
-h1 {
-
-}
-
-
 h2 {
     font-family: "Arial", Arial, Verdana, sans-serif;
     font-size: 48px;
     line-height: 55px;
     font-weight: bold;
     color: #252525;
-    /*text-align: center;*/
-}
-
-h3 {
-
-}
-
-p {
-
 }
 
 li {
@@ -214,14 +200,6 @@ a:active {
     -webkit-tap-highlight-color: transparent;
 }
 
-/*.for-mob {
-    display: none;
-}
-*/
-
-/*.mob-novisible {
-    display: block;
-}*/
 
 /*-------------------------------------------*/
 /* ----- REUSABLE COMPONENTS ------ */
@@ -254,11 +232,6 @@ section.offset-top-0 {
     text-align: center;
 }
 
-/*.slick-slide {
-    height: auto !important;
-    min-height: auto !important;
-}
-*/
 /* ----- Slick Slider Slick Dots ------ */
 
 .slick-dots li {
@@ -307,8 +280,6 @@ section.offset-top-0 {
 }
 
 .top-tel-box {
-/*    display: inline-block;
-    vertical-align: top;*/
     display: none;
     width: 50%;
     padding: 5px 0;
@@ -502,7 +473,6 @@ section.offset-top-0 {
     background: rgba(255, 210, 0, 1);
      padding: 2px 0;
     overflow: hidden;
-    /*outline: 7px solid green;*/
 }
 
 .header-row-2 .row {
@@ -565,15 +535,7 @@ section.offset-top-0 {
     text-align: right;
 }
 
-.header-row-2 .logo {
-/*    display: inline-block;
-    vertical-align: middle;
-    width: 20%;
-    max-width: 60px;   */
-}
-
 .logo-box {
-    /*display: table;*/
     display: block;
     width: 100%;
     max-width: 227px;
@@ -584,13 +546,10 @@ section.offset-top-0 {
     display: inline-block;
     vertical-align: middle;
     width: 146px;
-    /*max-width: 53px;*/
     height: 124px;
     background-image: url(img/logo_bg.png);
     background-position: center;
     background-repeat: no-repeat;
-    /*background-size: 100%;*/
-    /*outline: 1px solid red;*/
     position: relative;
 }
 
@@ -646,7 +605,6 @@ section.offset-top-0 {
     position: absolute;
     top: 40px;
     left: 50%;
-    /*padding: 0 0 0 4%;*/
 }
 
 .logo-descript h1 {
@@ -786,7 +744,6 @@ section.offset-top-0 {
 }
 
 .search-form {
-    /*background: rgba(246, 246, 246, 1);*/
     background: rgba(255, 210, 0, 1);
     border: 2px solid #333333;
     -webkit-border-radius: 18px;
@@ -807,7 +764,6 @@ section.offset-top-0 {
     line-height: 24px;
     font-weight: normal;
     color: #222222;
-    /*background: rgba(246, 246, 246, 1);*/
     background: rgba(255, 210, 0, 1);
     border: 1px solid transparent;
 }
@@ -866,8 +822,6 @@ p.count-goods {
     /* ----- Responsive Menu Button ------ */
 
     .respmenubtn-box {
-/*        display: inline-block;
-        vertical-align: middle;*/
         display: none;
         width: 11%;
         padding: 5px 0 0 0;
@@ -1049,8 +1003,6 @@ p.count-goods {
 
 .main-navigation {
     background: rgba(24, 185, 203, 1);
-    /*width: 104%;*/
-    /*margin: 0 0 0 -2%;*/
     padding: 40px 0;
     position: relative;
     z-index: 3;
@@ -1085,26 +1037,6 @@ p.count-goods {
     background: rgba(230, 0 ,87, 0);
     position: relative;
     z-index: 3;
-/*
-    -webkit-transition-property: background;
-    -webkit-transition-duration: .1s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: background;
-    -moz-transition-duration: .1s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: background;
-    -ms-transition-duration: .1s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: background;
-    -o-transition-duration: .1s;
-    -o-transition-timing-function: ease;
-
-    transition-property: background;
-    transition-duration: .1s;
-    transition-timing-function: ease;*/
 }
 
 .nav-item:link .nav-item-link,
@@ -1177,11 +1109,9 @@ p.count-goods {
 }
 
 .inner-nav-wrapp {
-    /*display: block;*/
     display: none;
     height: auto;
     min-width: 237px;
-    /*overflow: hidden;*/
     position: absolute;
     top: 100%;
     left: 0;
@@ -1215,7 +1145,6 @@ p.count-goods {
 
 .inner-nav {
     display: block;
-    /*display: none;*/
     height: 0;
     width: 100%;
     position: absolute;
@@ -1289,7 +1218,6 @@ p.count-goods {
 /*-- Responsive Main Navigation --*/
 
 .resp-main-navigation {
-    /*display: block;*/
     display: none;
     width: 100%;
     height: 100%;
@@ -1322,14 +1250,6 @@ p.count-goods {
     color: #ffffff;
 }
 
-.resp-main-navigation-row {
-
-}
-
-.resp-nav-item {
-
-}
-
 .resp-nav-item-link {
     display: inline-block;
     vertical-align: top;
@@ -1355,7 +1275,6 @@ p.count-goods {
     cursor: pointer;
     background: rgba(24, 145, 203, 0.3);
     border: none;
-    /*font-weight: normal;*/
 }
 
 .resp-nav-btn .nav-arrow.fa {
@@ -1365,12 +1284,9 @@ p.count-goods {
 }
 
 .resp-inner-nav-wrapp {
-    /*background: rgba(24, 185, 203, 1);*/
-    /*background: rgba(24, 145, 203, 0.95);*/
     background: rgba(24, 145, 203, 0.3);
     overflow: hidden;
     height: 0;
-    /*border-bottom: 1px solid #cdcdcd;*/
 }
 
 .resp-inner-nav {
@@ -1389,7 +1305,6 @@ p.count-goods {
 }
 
 .resp-inner-nav-link:hover {
-    /*background: rgba(255, 67, 98, .7);*/
     background: rgba(255, 67, 98, .2);
 }
 
@@ -1465,7 +1380,6 @@ p.count-goods {
 .promo-slider-slide.slick-slide img {
     display: block;
     outline: none !important;
-    /*max-width: 100% !important;*/
     min-width: 100% !important;
     margin: 0 auto;
 }
@@ -1527,10 +1441,6 @@ p.count-goods {
 
 .slide-desript .col:nth-child(2) {
     padding: 6px 0 0 23px;
-}
-
-.slide-desript-list {
-
 }
 
 .slide-desript-list li {
@@ -1633,10 +1543,6 @@ p.count-goods {
 
 /* -- Banner -- */
 
-.banner-box {
-
-}
-
 .banner {
     display: block;
     width: 100%;
@@ -1673,10 +1579,6 @@ p.count-goods {
     -o-transform: scale(1.03);
     transform: scale(1.03);
 }
-
-/*.banner-1 {
-    display: block;
-}*/
 
 .banner-img {
     display: block;
@@ -1932,12 +1834,6 @@ p.count-goods {
     background-repeat: no-repeat;
     background-position: 0 0;
 }
-
-/*.model-icon {
-    background-image: url(img/evroknighka.png);
-    background-repeat: no-repeat;
-    background-position: 0 0;
-}*/
 
 .img-box:hover .model-icon {
     background-position: 0 -59px;
@@ -2493,10 +2389,6 @@ p.count-goods {
     padding: 50px 0 10px;
 }
 
-.breadcrumbs {
-
-}
-
 .breadcrumbs li {
     display: inline-block;
     vertical-align: middle;
@@ -2579,12 +2471,10 @@ p.count-goods {
     width: 23%;
     float: left;
     margin: 35px 0 0 0;
-    /*outline: 1px solid green;*/
 }
 
 .sidebar-sect {
     background: rgba(206, 234, 247, 1);
-    /*margin: 0 0 1px 0;*/
     border-bottom: 1px solid #ffffff;
     padding: 25px 2%;
 }
@@ -2594,7 +2484,6 @@ p.count-goods {
     width: 77%;
     min-width: auto;
     float: right;
-    /*outline: 1px solid red;*/
 }
 
 /* ----- /Caalog Page - Two Cols Template ------ */
@@ -2665,11 +2554,6 @@ p.count-goods {
     right: 16px;
 }
 
-.reset-link {
-
-}
-
-
 .inner-page-h {
     font-family: "Arial", Arial, Verdana, sans-serif;
     font-size: 48px;
@@ -2683,8 +2567,6 @@ p.count-goods {
 }
 
 .close-filters-btn {
-    /*display: inline-block;
-    vertical-align: top;*/
     display: none;
     cursor: pointer;
     position: absolute;
@@ -2814,10 +2696,6 @@ p.count-goods {
     color: #333333;
 }
 
-/*.sidebar-sect-head .show-sort-btn:hover .fa {
-    color: #ffffff;
-}
-*/
 .drop-wrapp {
     overflow: hidden;
     height: auto;
@@ -2828,8 +2706,6 @@ p.count-goods {
 }
 
 .range-slider-val {
-    /*display: block;
-    width: 100%;*/
     font-size: 0;
     line-height: 0;
     padding: 0 0 10px 0;
@@ -2858,7 +2734,6 @@ p.count-goods {
 .range-slider-val p {
     display: inline-block;
     vertical-align: middle;
-    /*width: 27%;*/
     width: 25%;
     font-family: "Arial", Arial, Verdana, sans-serif;
     font-size: 12px;
@@ -2870,16 +2745,10 @@ p.count-goods {
 .range-slider-val .input-range-box {
     display: inline-block;
     vertical-align: middle;
-    /*width: 73%;*/
     width: 75%;
-    /*padding: 0 10% 0 0;*/
     padding: 2px 13px 2px 2px;
     border-bottom: 1px dashed #e60057;
 }
-
-/*.input-range-box {
-    padding: 2px 14px 2px 2px;
-}*/
 
 .input-range-box.focus {
     padding: 2px 13px 2px 2px;
@@ -2944,20 +2813,6 @@ p.count-goods {
 .input-range-box.focus span {
     color: #333333;
 }
-
-/*.selected-box {
-    padding: 40px 0 0 0;
-}
-
-.select-box {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 10px 12px;
-}*/
-
-/*.range-slider-box {
-
-}*/
 
 .checkbox-box {
     position: relative;
@@ -3060,12 +2915,8 @@ p.count-goods {
     background: rgba(240, 35, 113, 1);
 }
 
-
 .reset-link-box {
-    /*display: inline-block;
-    vertical-align: middle;*/
     margin: 25px 12px;
-    /*padding: 0 0 0 20px;*/
     text-align: center;
 }
 
@@ -3124,15 +2975,12 @@ p.count-goods {
 
 .catalog-thumbnails {
     display: block;
-    /*width: 104%;*/
-    /*margin: 0 0 0 -2%;*/
     padding: 20px 0;
 }
 
 .good-thumb-box {
     display: inline-block;
     vertical-align: top;
-    /*width: 25%;*/
     width: 33.33%;
     padding: 15px;
 }
@@ -3140,7 +2988,6 @@ p.count-goods {
 .catalog-thumbnails .good-thumb {
     display: block;
     width: 100%;
-    
 }
 
 .pagimation-list {
@@ -3334,17 +3181,12 @@ li.pagination-arrow-item {
 /*-------------------------------------------*/
 
 footer {
-    /*position: relative;*/
     display: block;
     width: 100%;
     position: absolute;
     bottom: 0;
     left: 0;
 }
-
-/*footer.positionbottom {
-    position: absolute;
-}*/
 
 .footer {
     background: rgba(51, 51, 51, 1);
@@ -3464,14 +3306,11 @@ footer {
 }
 
 .web-studio {
-    /*display: table;*/
     display: block;
     width: 216px;
 }
 
 .web-studio h2 {
-  /*  display: table-cell;
-    vertical-align: middle;*/
     width: 170px;
     font-family: "Arial", Arial, Verdana, sans-serif;
     font-size: 14px;
@@ -3516,8 +3355,6 @@ footer {
 }
 
 .web-studio .vlad-web-logo {
-/*    display: table-cell;
-    vertical-align: middle;*/
     display: block;
     width: 46px;
     height: 46px;
